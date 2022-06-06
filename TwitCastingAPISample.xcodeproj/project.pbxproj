@@ -55,6 +55,7 @@
 		159ED6AE284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */; };
 		159ED6B0284DED04008038E9 /* SearchUsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */; };
 		159ED6B2284DED13008038E9 /* SearchUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B1284DED13008038E9 /* SearchUsersView.swift */; };
+		159ED6B4284DF0E7008038E9 /* SearchLiveMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLiveMoviesViewModel.swift; sourceTree = "<group>"; };
 		159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsersViewModel.swift; sourceTree = "<group>"; };
 		159ED6B1284DED13008038E9 /* SearchUsersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsersView.swift; sourceTree = "<group>"; };
+		159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLiveMoviesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				159ED6A9284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift */,
 				159ED6AB284DEBBF008038E9 /* SearchLiveMoviesListView.swift */,
 				159ED6B1284DED13008038E9 /* SearchUsersView.swift */,
+				159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,8 +264,8 @@
 				159ED699284DE863008038E9 /* SupportingListViewModel.swift */,
 				159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */,
 				159ED6A3284DEAEB008038E9 /* GetCategoriesVeiwModel.swift */,
-				159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */,
 				159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */,
+				159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				159ED6A8284DEB17008038E9 /* SubCategoryView.swift in Sources */,
 				159ED680284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift in Sources */,
 				159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */,
+				159ED6B4284DF0E7008038E9 /* SearchLiveMoviesView.swift in Sources */,
 				159ED690284DE420008038E9 /* GiftsViewModel.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 				159ED6A2284DE9DE008038E9 /* SupporterListViewModel.swift in Sources */,
