@@ -35,12 +35,12 @@ struct APITestView: View {
                     } label: {
                         Text("Verify Credentials")
                     }
-//
-//                    NavigationLink {
-//                        LiveThumbnailImageView()
-//                    } label: {
-//                        Text("Get Live Thumbnail Image")
-//                    }
+
+                    NavigationLink {
+                        LiveThumbnailImageView()
+                    } label: {
+                        Text("Get Live Thumbnail Image")
+                    }
 //
 //                    NavigationLink {
 //                        MovieInfoView()
