@@ -123,12 +123,12 @@ struct APITestView: View {
                         Text("Get Categories")
                     }
                     
-//                    NavigationLink {
-//                        SearchUsersView()
-//                    } label: {
-//                        Text("Search Users")
-//                    }
-//                    
+                    NavigationLink {
+                        SearchUsersView()
+                    } label: {
+                        Text("Search Users")
+                    }
+                    
 //                    NavigationLink {
 //                        SearchLiveMoviesView()
 //                    } label: {
