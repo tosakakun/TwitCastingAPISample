@@ -129,12 +129,12 @@ struct APITestView: View {
                         Text("Search Users")
                     }
                     
-//                    NavigationLink {
-//                        SearchLiveMoviesView()
-//                    } label: {
-//                        Text("Search Live Movies")
-//                    }
-//                    
+                    NavigationLink {
+                        SearchLiveMoviesView()
+                    } label: {
+                        Text("Search Live Movies")
+                    }
+                    
 //                    NavigationLink {
 //                        BroadcastingView()
 //                    } label: {
