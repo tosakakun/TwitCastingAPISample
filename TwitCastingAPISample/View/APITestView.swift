@@ -66,12 +66,12 @@ struct APITestView: View {
                         Text("Set or Unset Current Live Subtitle")
                     }
 
-//                    NavigationLink {
-//                        CurrentLiveHashtagView()
-//                    } label: {
-//                        Text("Set or Unset Current Live Hashtag")
-//                    }
-//
+                    NavigationLink {
+                        CurrentLiveHashtagView()
+                    } label: {
+                        Text("Set or Unset Current Live Hashtag")
+                    }
+
 //                    NavigationLink {
 //                        GetCommentsView()
 //                    } label: {
