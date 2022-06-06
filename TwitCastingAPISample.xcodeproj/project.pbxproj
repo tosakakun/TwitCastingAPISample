@@ -18,6 +18,8 @@
 		159ED663284DBCAC008038E9 /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED662284DBCAC008038E9 /* APITestView.swift */; };
 		159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED664284DC47C008038E9 /* GetUserInfoView.swift */; };
 		159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */; };
+		159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */; };
+		159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		159ED664284DC47C008038E9 /* GetUserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserInfoView.swift; sourceTree = "<group>"; };
 		159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserInfoViewModel.swift; sourceTree = "<group>"; };
 		159ED668284DC5BC008038E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCredentialsViewModel.swift; sourceTree = "<group>"; };
+		159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCredentialsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				1527547A284C8AFD00C0B1E1 /* LoginView.swift */,
 				159ED662284DBCAC008038E9 /* APITestView.swift */,
 				159ED664284DC47C008038E9 /* GetUserInfoView.swift */,
+				159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */,
+				159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
+				159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */,
 				159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */,
+				159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */,
 				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
 				159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
