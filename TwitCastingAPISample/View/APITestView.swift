@@ -135,12 +135,12 @@ struct APITestView: View {
                         Text("Search Live Movies")
                     }
                     
-//                    NavigationLink {
-//                        BroadcastingView()
-//                    } label: {
-//                        Text("Get RTMP, WebM Url")
-//                    }
-//
+                    NavigationLink {
+                        BroadcastingView()
+                    } label: {
+                        Text("Get RTMP, WebM Url")
+                    }
+
                 }
 
             }
