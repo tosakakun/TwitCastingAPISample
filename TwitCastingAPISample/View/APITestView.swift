@@ -105,12 +105,12 @@ struct APITestView: View {
                         Text("Support and Unsupport User")
                     }
                     
-//                    NavigationLink {
-//                        SupportingListView()
-//                    } label: {
-//                        Text("Supporting List")
-//                    }
-//                    
+                    NavigationLink {
+                        SupportingListView()
+                    } label: {
+                        Text("Supporting List")
+                    }
+                    
 //                    NavigationLink {
 //                        SupporterListView()
 //                    } label: {
