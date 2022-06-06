@@ -47,6 +47,12 @@
 		159ED69E284DE8B1008038E9 /* SupporterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */; };
 		159ED6A0284DE9CE008038E9 /* SupporterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69F284DE9CE008038E9 /* SupporterListView.swift */; };
 		159ED6A2284DE9DE008038E9 /* SupporterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */; };
+		159ED6A4284DEAEB008038E9 /* GetCategoriesVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A3284DEAEB008038E9 /* GetCategoriesVeiwModel.swift */; };
+		159ED6A6284DEAFC008038E9 /* GetCategoriesVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A5284DEAFC008038E9 /* GetCategoriesVeiw.swift */; };
+		159ED6A8284DEB17008038E9 /* SubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A7284DEB17008038E9 /* SubCategoryView.swift */; };
+		159ED6AA284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A9284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift */; };
+		159ED6AC284DEBBF008038E9 /* SearchLiveMoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6AB284DEBBF008038E9 /* SearchLiveMoviesListView.swift */; };
+		159ED6AE284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +116,12 @@
 		159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterDetailView.swift; sourceTree = "<group>"; };
 		159ED69F284DE9CE008038E9 /* SupporterListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterListView.swift; sourceTree = "<group>"; };
 		159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterListViewModel.swift; sourceTree = "<group>"; };
+		159ED6A3284DEAEB008038E9 /* GetCategoriesVeiwModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCategoriesVeiwModel.swift; sourceTree = "<group>"; };
+		159ED6A5284DEAFC008038E9 /* GetCategoriesVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCategoriesVeiw.swift; sourceTree = "<group>"; };
+		159ED6A7284DEB17008038E9 /* SubCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryView.swift; sourceTree = "<group>"; };
+		159ED6A9284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryLiveMoviesListView.swift; sourceTree = "<group>"; };
+		159ED6AB284DEBBF008038E9 /* SearchLiveMoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLiveMoviesListView.swift; sourceTree = "<group>"; };
+		159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLiveMoviesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +229,10 @@
 				159ED69B284DE870008038E9 /* SupportingListView.swift */,
 				159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */,
 				159ED69F284DE9CE008038E9 /* SupporterListView.swift */,
+				159ED6A5284DEAFC008038E9 /* GetCategoriesVeiw.swift */,
+				159ED6A7284DEB17008038E9 /* SubCategoryView.swift */,
+				159ED6A9284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift */,
+				159ED6AB284DEBBF008038E9 /* SearchLiveMoviesListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +255,8 @@
 				159ED697284DE6FC008038E9 /* SupportUnsupportUserViewModel.swift */,
 				159ED699284DE863008038E9 /* SupportingListViewModel.swift */,
 				159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */,
+				159ED6A3284DEAEB008038E9 /* GetCategoriesVeiwModel.swift */,
+				159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -388,12 +406,16 @@
 				159ED672284DCE37008038E9 /* MovieInfoViewModel.swift in Sources */,
 				159ED66E284DCB1F008038E9 /* LiveThumbnailImageView.swift in Sources */,
 				159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */,
+				159ED6AC284DEBBF008038E9 /* SearchLiveMoviesListView.swift in Sources */,
 				159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */,
 				159ED676284DCFD2008038E9 /* MoviesByUserView.swift in Sources */,
 				159ED69C284DE870008038E9 /* SupportingListView.swift in Sources */,
 				159ED69A284DE863008038E9 /* SupportingListViewModel.swift in Sources */,
 				159ED68E284DE415008038E9 /* GiftsView.swift in Sources */,
+				159ED6AE284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift in Sources */,
 				159ED686284DDC29008038E9 /* GetCommentsView.swift in Sources */,
+				159ED6A4284DEAEB008038E9 /* GetCategoriesVeiwModel.swift in Sources */,
+				159ED6AA284DEB46008038E9 /* SubCategoryLiveMoviesListView.swift in Sources */,
 				159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */,
 				159ED678284DCFEB008038E9 /* MoviesByUserViewModel.swift in Sources */,
 				159ED68C284DDE5D008038E9 /* PostDeleteCommentView.swift in Sources */,
@@ -408,11 +430,13 @@
 				159ED698284DE6FD008038E9 /* SupportUnsupportUserViewModel.swift in Sources */,
 				159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */,
 				159ED68A284DDE46008038E9 /* PostDeleteCommentViewModel.swift in Sources */,
+				159ED6A8284DEB17008038E9 /* SubCategoryView.swift in Sources */,
 				159ED680284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift in Sources */,
 				159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */,
 				159ED690284DE420008038E9 /* GiftsViewModel.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 				159ED6A2284DE9DE008038E9 /* SupporterListViewModel.swift in Sources */,
+				159ED6A6284DEAFC008038E9 /* GetCategoriesVeiw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
