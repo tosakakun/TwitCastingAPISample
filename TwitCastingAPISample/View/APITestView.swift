@@ -85,14 +85,14 @@ struct APITestView: View {
                     }
                 }
                 
-//                Group {
-//                    
-//                    NavigationLink {
-//                        GiftsView()
-//                    } label: {
-//                        Text("Get Gifts")
-//                    }
-//                    
+                Group {
+                    
+                    NavigationLink {
+                        GiftsView()
+                    } label: {
+                        Text("Get Gifts")
+                    }
+                    
 //                    NavigationLink {
 //                        SupportingStatusView()
 //                    } label: {
@@ -141,7 +141,7 @@ struct APITestView: View {
 //                        Text("Get RTMP, WebM Url")
 //                    }
 //
-//                }
+                }
 
             }
             .listStyle(.plain)
