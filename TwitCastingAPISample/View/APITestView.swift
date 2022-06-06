@@ -111,12 +111,12 @@ struct APITestView: View {
                         Text("Supporting List")
                     }
                     
-//                    NavigationLink {
-//                        SupporterListView()
-//                    } label: {
-//                        Text("Supporter List")
-//                    }
-//                    
+                    NavigationLink {
+                        SupporterListView()
+                    } label: {
+                        Text("Supporter List")
+                    }
+                    
 //                    NavigationLink {
 //                        GetCategoriesVeiw()
 //                    } label: {
