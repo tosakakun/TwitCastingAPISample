@@ -99,12 +99,12 @@ struct APITestView: View {
                         Text("Get Supporting Status")
                     }
                     
-//                    NavigationLink {
-//                        SupportUnsupportUserView()
-//                    } label: {
-//                        Text("Support and Unsupport User")
-//                    }
-//                    
+                    NavigationLink {
+                        SupportUnsupportUserView()
+                    } label: {
+                        Text("Support and Unsupport User")
+                    }
+                    
 //                    NavigationLink {
 //                        SupportingListView()
 //                    } label: {
