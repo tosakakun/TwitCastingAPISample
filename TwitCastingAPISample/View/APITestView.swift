@@ -54,12 +54,12 @@ struct APITestView: View {
                         Text("Get Movies by User")
                     }
 
-//                    NavigationLink {
-//                        CurrentLiveView()
-//                    } label: {
-//                        Text("Get Current Live")
-//                    }
-//
+                    NavigationLink {
+                        CurrentLiveView()
+                    } label: {
+                        Text("Get Current Live")
+                    }
+
 //                    NavigationLink {
 //                        CurrentLiveSubtitleView()
 //                    } label: {

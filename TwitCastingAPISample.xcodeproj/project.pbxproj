@@ -26,6 +26,8 @@
 		159ED674284DCE4C008038E9 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED673284DCE4C008038E9 /* MovieInfoView.swift */; };
 		159ED676284DCFD2008038E9 /* MoviesByUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED675284DCFD2008038E9 /* MoviesByUserView.swift */; };
 		159ED678284DCFEB008038E9 /* MoviesByUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */; };
+		159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */; };
+		159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED67B284DD171008038E9 /* CurrentLiveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		159ED673284DCE4C008038E9 /* MovieInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
 		159ED675284DCFD2008038E9 /* MoviesByUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesByUserView.swift; sourceTree = "<group>"; };
 		159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesByUserViewModel.swift; sourceTree = "<group>"; };
+		159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveViewModel.swift; sourceTree = "<group>"; };
+		159ED67B284DD171008038E9 /* CurrentLiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				159ED66D284DCB1F008038E9 /* LiveThumbnailImageView.swift */,
 				159ED673284DCE4C008038E9 /* MovieInfoView.swift */,
 				159ED675284DCFD2008038E9 /* MoviesByUserView.swift */,
+				159ED67B284DD171008038E9 /* CurrentLiveView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				159ED66F284DCB30008038E9 /* LiveThumbnailImageViewModel.swift */,
 				159ED671284DCE37008038E9 /* MovieInfoViewModel.swift */,
 				159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */,
+				159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
 				159ED672284DCE37008038E9 /* MovieInfoViewModel.swift in Sources */,
 				159ED66E284DCB1F008038E9 /* LiveThumbnailImageView.swift in Sources */,
+				159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */,
 				159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */,
 				159ED676284DCFD2008038E9 /* MoviesByUserView.swift in Sources */,
 				159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */,
@@ -328,6 +335,7 @@
 				159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */,
 				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
 				159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */,
+				159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
