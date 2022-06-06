@@ -20,6 +20,8 @@
 		159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */; };
 		159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */; };
 		159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */; };
+		159ED66E284DCB1F008038E9 /* LiveThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED66D284DCB1F008038E9 /* LiveThumbnailImageView.swift */; };
+		159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED66F284DCB30008038E9 /* LiveThumbnailImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		159ED668284DC5BC008038E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCredentialsViewModel.swift; sourceTree = "<group>"; };
 		159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCredentialsView.swift; sourceTree = "<group>"; };
+		159ED66D284DCB1F008038E9 /* LiveThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveThumbnailImageView.swift; sourceTree = "<group>"; };
+		159ED66F284DCB30008038E9 /* LiveThumbnailImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveThumbnailImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 				159ED662284DBCAC008038E9 /* APITestView.swift */,
 				159ED664284DC47C008038E9 /* GetUserInfoView.swift */,
 				159ED66B284DC8B5008038E9 /* VerifyCredentialsView.swift */,
+				159ED66D284DCB1F008038E9 /* LiveThumbnailImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			children = (
 				159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */,
 				159ED669284DC8A6008038E9 /* VerifyCredentialsViewModel.swift */,
+				159ED66F284DCB30008038E9 /* LiveThumbnailImageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
+				159ED66E284DCB1F008038E9 /* LiveThumbnailImageView.swift in Sources */,
+				159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */,
 				159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */,
 				159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */,
 				159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */,
