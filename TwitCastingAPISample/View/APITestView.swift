@@ -72,12 +72,12 @@ struct APITestView: View {
                         Text("Set or Unset Current Live Hashtag")
                     }
 
-//                    NavigationLink {
-//                        GetCommentsView()
-//                    } label: {
-//                        Text("Get Comments")
-//                    }
-//
+                    NavigationLink {
+                        GetCommentsView()
+                    } label: {
+                        Text("Get Comments")
+                    }
+
 //                    NavigationLink {
 //                        PostDeleteCommentView()
 //                    } label: {
