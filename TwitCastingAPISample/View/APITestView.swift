@@ -78,11 +78,11 @@ struct APITestView: View {
                         Text("Get Comments")
                     }
 
-//                    NavigationLink {
-//                        PostDeleteCommentView()
-//                    } label: {
-//                        Text("Post Delete Commnet")
-//                    }
+                    NavigationLink {
+                        PostDeleteCommentView()
+                    } label: {
+                        Text("Post Delete Commnet")
+                    }
                 }
                 
 //                Group {
