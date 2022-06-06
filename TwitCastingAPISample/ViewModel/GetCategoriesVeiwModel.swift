@@ -1,6 +1,6 @@
 //
 //  GetCategoriesVeiwModel.swift
-//  TwitCastingAPIDev
+//  TwitCastingAPISample
 //
 //  Created by tosakakun on 2022/05/06.
 //

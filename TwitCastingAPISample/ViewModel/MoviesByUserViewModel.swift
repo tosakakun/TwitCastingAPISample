@@ -1,6 +1,6 @@
 //
 //  MoviesByUserViewModel.swift
-//  TwitCastingAPIDev
+//  TwitCastingAPISample
 //
 //  Created by tosakakun on 2022/04/25.
 //
