@@ -42,6 +42,9 @@
 		159ED694284DE587008038E9 /* SupportingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED693284DE587008038E9 /* SupportingStatusView.swift */; };
 		159ED696284DE6ED008038E9 /* SupportUnsupportUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED695284DE6ED008038E9 /* SupportUnsupportUserView.swift */; };
 		159ED698284DE6FD008038E9 /* SupportUnsupportUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED697284DE6FC008038E9 /* SupportUnsupportUserViewModel.swift */; };
+		159ED69A284DE863008038E9 /* SupportingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED699284DE863008038E9 /* SupportingListViewModel.swift */; };
+		159ED69C284DE870008038E9 /* SupportingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69B284DE870008038E9 /* SupportingListView.swift */; };
+		159ED69E284DE8B1008038E9 /* SupporterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,9 @@
 		159ED693284DE587008038E9 /* SupportingStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingStatusView.swift; sourceTree = "<group>"; };
 		159ED695284DE6ED008038E9 /* SupportUnsupportUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportUnsupportUserView.swift; sourceTree = "<group>"; };
 		159ED697284DE6FC008038E9 /* SupportUnsupportUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportUnsupportUserViewModel.swift; sourceTree = "<group>"; };
+		159ED699284DE863008038E9 /* SupportingListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingListViewModel.swift; sourceTree = "<group>"; };
+		159ED69B284DE870008038E9 /* SupportingListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingListView.swift; sourceTree = "<group>"; };
+		159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +210,8 @@
 				159ED68D284DE415008038E9 /* GiftsView.swift */,
 				159ED693284DE587008038E9 /* SupportingStatusView.swift */,
 				159ED695284DE6ED008038E9 /* SupportUnsupportUserView.swift */,
+				159ED69B284DE870008038E9 /* SupportingListView.swift */,
+				159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +232,7 @@
 				159ED68F284DE420008038E9 /* GiftsViewModel.swift */,
 				159ED691284DE579008038E9 /* SupportingStatusViewModel.swift */,
 				159ED697284DE6FC008038E9 /* SupportUnsupportUserViewModel.swift */,
+				159ED699284DE863008038E9 /* SupportingListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -375,6 +384,8 @@
 				159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */,
 				159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */,
 				159ED676284DCFD2008038E9 /* MoviesByUserView.swift in Sources */,
+				159ED69C284DE870008038E9 /* SupportingListView.swift in Sources */,
+				159ED69A284DE863008038E9 /* SupportingListViewModel.swift in Sources */,
 				159ED68E284DE415008038E9 /* GiftsView.swift in Sources */,
 				159ED686284DDC29008038E9 /* GetCommentsView.swift in Sources */,
 				159ED66C284DC8B5008038E9 /* VerifyCredentialsView.swift in Sources */,
@@ -384,6 +395,7 @@
 				159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */,
 				159ED682284DDAC1008038E9 /* CurrentLiveHashtagViewModel.swift in Sources */,
 				159ED692284DE579008038E9 /* SupportingStatusViewModel.swift in Sources */,
+				159ED69E284DE8B1008038E9 /* SupporterDetailView.swift in Sources */,
 				159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */,
 				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
 				159ED698284DE6FD008038E9 /* SupportUnsupportUserViewModel.swift in Sources */,
