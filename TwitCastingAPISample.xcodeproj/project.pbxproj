@@ -56,6 +56,8 @@
 		159ED6B0284DED04008038E9 /* SearchUsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */; };
 		159ED6B2284DED13008038E9 /* SearchUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B1284DED13008038E9 /* SearchUsersView.swift */; };
 		159ED6B4284DF0E7008038E9 /* SearchLiveMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */; };
+		159ED6B6284DF349008038E9 /* BroadcastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B5284DF349008038E9 /* BroadcastingView.swift */; };
+		159ED6B8284DF358008038E9 /* BroadcastingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6B7284DF358008038E9 /* BroadcastingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,8 @@
 		159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsersViewModel.swift; sourceTree = "<group>"; };
 		159ED6B1284DED13008038E9 /* SearchUsersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsersView.swift; sourceTree = "<group>"; };
 		159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLiveMoviesView.swift; sourceTree = "<group>"; };
+		159ED6B5284DF349008038E9 /* BroadcastingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastingView.swift; sourceTree = "<group>"; };
+		159ED6B7284DF358008038E9 /* BroadcastingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +245,7 @@
 				159ED6AB284DEBBF008038E9 /* SearchLiveMoviesListView.swift */,
 				159ED6B1284DED13008038E9 /* SearchUsersView.swift */,
 				159ED6B3284DF0E7008038E9 /* SearchLiveMoviesView.swift */,
+				159ED6B5284DF349008038E9 /* BroadcastingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				159ED6A3284DEAEB008038E9 /* GetCategoriesVeiwModel.swift */,
 				159ED6AF284DED04008038E9 /* SearchUsersViewModel.swift */,
 				159ED6AD284DEBE3008038E9 /* SearchLiveMoviesViewModel.swift */,
+				159ED6B7284DF358008038E9 /* BroadcastingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -409,6 +415,7 @@
 				159ED674284DCE4C008038E9 /* MovieInfoView.swift in Sources */,
 				159ED694284DE587008038E9 /* SupportingStatusView.swift in Sources */,
 				159ED688284DDC37008038E9 /* GetCommentsViewModel.swift in Sources */,
+				159ED6B8284DF358008038E9 /* BroadcastingViewModel.swift in Sources */,
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
 				159ED684284DDAE1008038E9 /* CurrentLiveHashtagView.swift in Sources */,
 				159ED67E284DD908008038E9 /* CurrentLiveSubtitleView.swift in Sources */,
@@ -419,6 +426,7 @@
 				159ED6AC284DEBBF008038E9 /* SearchLiveMoviesListView.swift in Sources */,
 				159ED670284DCB30008038E9 /* LiveThumbnailImageViewModel.swift in Sources */,
 				159ED676284DCFD2008038E9 /* MoviesByUserView.swift in Sources */,
+				159ED6B6284DF349008038E9 /* BroadcastingView.swift in Sources */,
 				159ED69C284DE870008038E9 /* SupportingListView.swift in Sources */,
 				159ED69A284DE863008038E9 /* SupportingListViewModel.swift in Sources */,
 				159ED68E284DE415008038E9 /* GiftsView.swift in Sources */,
