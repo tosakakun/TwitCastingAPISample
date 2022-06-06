@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527544D284C895500C0B1E1 /* TwitCastingAPISampleApp.swift */; };
-		15275450284C895500C0B1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527544F284C895500C0B1E1 /* ContentView.swift */; };
 		15275452284C895700C0B1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15275451284C895700C0B1E1 /* Assets.xcassets */; };
 		15275455284C895700C0B1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15275454284C895700C0B1E1 /* Preview Assets.xcassets */; };
 		1527545F284C895800C0B1E1 /* TwitCastingAPISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527545E284C895800C0B1E1 /* TwitCastingAPISampleTests.swift */; };
 		15275469284C895800C0B1E1 /* TwitCastingAPISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15275468284C895800C0B1E1 /* TwitCastingAPISampleUITests.swift */; };
 		1527546B284C895800C0B1E1 /* TwitCastingAPISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527546A284C895800C0B1E1 /* TwitCastingAPISampleUITestsLaunchTests.swift */; };
+		15275479284C8A1E00C0B1E1 /* TwitCastingAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 15275478284C8A1E00C0B1E1 /* TwitCastingAPI */; };
+		1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527547A284C8AFD00C0B1E1 /* LoginView.swift */; };
+		159ED663284DBCAC008038E9 /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED662284DBCAC008038E9 /* APITestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		1527544A284C895500C0B1E1 /* TwitCastingAPISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitCastingAPISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1527544D284C895500C0B1E1 /* TwitCastingAPISampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitCastingAPISampleApp.swift; sourceTree = "<group>"; };
-		1527544F284C895500C0B1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15275451284C895700C0B1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15275454284C895700C0B1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1527545A284C895800C0B1E1 /* TwitCastingAPISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitCastingAPISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,8 @@
 		15275464284C895800C0B1E1 /* TwitCastingAPISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitCastingAPISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15275468284C895800C0B1E1 /* TwitCastingAPISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitCastingAPISampleUITests.swift; sourceTree = "<group>"; };
 		1527546A284C895800C0B1E1 /* TwitCastingAPISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitCastingAPISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1527547A284C8AFD00C0B1E1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		159ED662284DBCAC008038E9 /* APITestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15275479284C8A1E00C0B1E1 /* TwitCastingAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				1527544D284C895500C0B1E1 /* TwitCastingAPISampleApp.swift */,
-				1527544F284C895500C0B1E1 /* ContentView.swift */,
+				159ED660284DBC63008038E9 /* View */,
+				159ED661284DBC89008038E9 /* ViewModel */,
 				15275451284C895700C0B1E1 /* Assets.xcassets */,
 				15275453284C895700C0B1E1 /* Preview Content */,
 			);
@@ -127,6 +132,22 @@
 			path = TwitCastingAPISampleUITests;
 			sourceTree = "<group>";
 		};
+		159ED660284DBC63008038E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1527547A284C8AFD00C0B1E1 /* LoginView.swift */,
+				159ED662284DBCAC008038E9 /* APITestView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		159ED661284DBC89008038E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +164,9 @@
 			dependencies = (
 			);
 			name = TwitCastingAPISample;
+			packageProductDependencies = (
+				15275478284C8A1E00C0B1E1 /* TwitCastingAPI */,
+			);
 			productName = TwitCastingAPISample;
 			productReference = 1527544A284C895500C0B1E1 /* TwitCastingAPISample.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 15275441284C895400C0B1E1;
+			packageReferences = (
+				15275477284C8A1E00C0B1E1 /* XCRemoteSwiftPackageReference "TwitCastingAPI" */,
+			);
 			productRefGroup = 1527544B284C895500C0B1E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15275450284C895500C0B1E1 /* ContentView.swift in Sources */,
+				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
+				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +611,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15275477284C8A1E00C0B1E1 /* XCRemoteSwiftPackageReference "TwitCastingAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tosakakun/TwitCastingAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15275478284C8A1E00C0B1E1 /* TwitCastingAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15275477284C8A1E00C0B1E1 /* XCRemoteSwiftPackageReference "TwitCastingAPI" */;
+			productName = TwitCastingAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15275442284C895400C0B1E1 /* Project object */;
 }

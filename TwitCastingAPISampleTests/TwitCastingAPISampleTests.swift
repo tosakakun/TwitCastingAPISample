@@ -2,7 +2,7 @@
 //  TwitCastingAPISampleTests.swift
 //  TwitCastingAPISampleTests
 //
-//  Created by 佐藤真樹 on 2022/06/05.
+//  Created by tosakakun on 2022/06/05.
 //
 
 import XCTest
