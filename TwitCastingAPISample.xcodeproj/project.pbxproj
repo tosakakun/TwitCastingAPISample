@@ -45,6 +45,8 @@
 		159ED69A284DE863008038E9 /* SupportingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED699284DE863008038E9 /* SupportingListViewModel.swift */; };
 		159ED69C284DE870008038E9 /* SupportingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69B284DE870008038E9 /* SupportingListView.swift */; };
 		159ED69E284DE8B1008038E9 /* SupporterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */; };
+		159ED6A0284DE9CE008038E9 /* SupporterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED69F284DE9CE008038E9 /* SupporterListView.swift */; };
+		159ED6A2284DE9DE008038E9 /* SupporterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		159ED699284DE863008038E9 /* SupportingListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingListViewModel.swift; sourceTree = "<group>"; };
 		159ED69B284DE870008038E9 /* SupportingListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingListView.swift; sourceTree = "<group>"; };
 		159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterDetailView.swift; sourceTree = "<group>"; };
+		159ED69F284DE9CE008038E9 /* SupporterListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterListView.swift; sourceTree = "<group>"; };
+		159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupporterListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +216,7 @@
 				159ED695284DE6ED008038E9 /* SupportUnsupportUserView.swift */,
 				159ED69B284DE870008038E9 /* SupportingListView.swift */,
 				159ED69D284DE8B1008038E9 /* SupporterDetailView.swift */,
+				159ED69F284DE9CE008038E9 /* SupporterListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				159ED691284DE579008038E9 /* SupportingStatusViewModel.swift */,
 				159ED697284DE6FC008038E9 /* SupportUnsupportUserViewModel.swift */,
 				159ED699284DE863008038E9 /* SupportingListViewModel.swift */,
+				159ED6A1284DE9DE008038E9 /* SupporterListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -393,6 +399,7 @@
 				159ED68C284DDE5D008038E9 /* PostDeleteCommentView.swift in Sources */,
 				159ED696284DE6ED008038E9 /* SupportUnsupportUserView.swift in Sources */,
 				159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */,
+				159ED6A0284DE9CE008038E9 /* SupporterListView.swift in Sources */,
 				159ED682284DDAC1008038E9 /* CurrentLiveHashtagViewModel.swift in Sources */,
 				159ED692284DE579008038E9 /* SupportingStatusViewModel.swift in Sources */,
 				159ED69E284DE8B1008038E9 /* SupporterDetailView.swift in Sources */,
@@ -405,6 +412,7 @@
 				159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */,
 				159ED690284DE420008038E9 /* GiftsViewModel.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
+				159ED6A2284DE9DE008038E9 /* SupporterListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
