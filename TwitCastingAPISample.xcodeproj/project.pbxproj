@@ -16,6 +16,8 @@
 		15275479284C8A1E00C0B1E1 /* TwitCastingAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 15275478284C8A1E00C0B1E1 /* TwitCastingAPI */; };
 		1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1527547A284C8AFD00C0B1E1 /* LoginView.swift */; };
 		159ED663284DBCAC008038E9 /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED662284DBCAC008038E9 /* APITestView.swift */; };
+		159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED664284DC47C008038E9 /* GetUserInfoView.swift */; };
+		159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		1527546A284C895800C0B1E1 /* TwitCastingAPISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitCastingAPISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1527547A284C8AFD00C0B1E1 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		159ED662284DBCAC008038E9 /* APITestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
+		159ED664284DC47C008038E9 /* GetUserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserInfoView.swift; sourceTree = "<group>"; };
+		159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUserInfoViewModel.swift; sourceTree = "<group>"; };
+		159ED668284DC5BC008038E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,7 @@
 		1527544C284C895500C0B1E1 /* TwitCastingAPISample */ = {
 			isa = PBXGroup;
 			children = (
+				159ED668284DC5BC008038E9 /* Info.plist */,
 				1527544D284C895500C0B1E1 /* TwitCastingAPISampleApp.swift */,
 				159ED660284DBC63008038E9 /* View */,
 				159ED661284DBC89008038E9 /* ViewModel */,
@@ -137,6 +143,7 @@
 			children = (
 				1527547A284C8AFD00C0B1E1 /* LoginView.swift */,
 				159ED662284DBCAC008038E9 /* APITestView.swift */,
+				159ED664284DC47C008038E9 /* GetUserInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 		159ED661284DBC89008038E9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				159ED666284DC48B008038E9 /* GetUserInfoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -285,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
+				159ED667284DC48B008038E9 /* GetUserInfoViewModel.swift in Sources */,
 				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
+				159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +458,7 @@
 				DEVELOPMENT_TEAM = 9A6DATUU63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwitCastingAPISample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +488,7 @@
 				DEVELOPMENT_TEAM = 9A6DATUU63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwitCastingAPISample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
