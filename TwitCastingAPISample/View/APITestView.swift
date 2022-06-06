@@ -41,12 +41,12 @@ struct APITestView: View {
                     } label: {
                         Text("Get Live Thumbnail Image")
                     }
-//
-//                    NavigationLink {
-//                        MovieInfoView()
-//                    } label: {
-//                        Text("Get Movie Info")
-//                    }
+
+                    NavigationLink {
+                        MovieInfoView()
+                    } label: {
+                        Text("Get Movie Info")
+                    }
 //
 //                    NavigationLink {
 //                        MoviesByUserView()
