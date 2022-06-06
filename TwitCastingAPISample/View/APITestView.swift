@@ -1,6 +1,6 @@
 //
 //  APITestView.swift
-//  TwitCastingAPIDev
+//  TwitCastingAPISample
 //
 //  Created by tosakakun on 2022/04/18.
 //
@@ -22,8 +22,7 @@ struct APITestView: View {
         NavigationView {
             
             List {
-                Text("テスト")
-                /*
+
                 Group {
                     NavigationLink {
                         GetUserInfoView()
@@ -36,13 +35,13 @@ struct APITestView: View {
                     } label: {
                         Text("Verify Credentials")
                     }
-                    
+
                     NavigationLink {
                         LiveThumbnailImageView()
                     } label: {
                         Text("Get Live Thumbnail Image")
                     }
-                    
+
                     NavigationLink {
                         MovieInfoView()
                     } label: {
@@ -54,7 +53,7 @@ struct APITestView: View {
                     } label: {
                         Text("Get Movies by User")
                     }
-                    
+
                     NavigationLink {
                         CurrentLiveView()
                     } label: {
@@ -66,13 +65,13 @@ struct APITestView: View {
                     } label: {
                         Text("Set or Unset Current Live Subtitle")
                     }
-                    
+
                     NavigationLink {
                         CurrentLiveHashtagView()
                     } label: {
                         Text("Set or Unset Current Live Hashtag")
                     }
-                    
+
                     NavigationLink {
                         GetCommentsView()
                     } label: {
@@ -143,7 +142,6 @@ struct APITestView: View {
                     }
 
                 }
-                 */
 
             }
             .listStyle(.plain)
