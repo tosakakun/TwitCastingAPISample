@@ -22,7 +22,6 @@ struct APITestView: View {
         NavigationView {
             
             List {
-                Text("テスト")
 
                 Group {
                     NavigationLink {
@@ -31,11 +30,11 @@ struct APITestView: View {
                         Text("Get User Info")
                     }
 
-//                    NavigationLink {
-//                        VerifyCredentialsView()
-//                    } label: {
-//                        Text("Verify Credentials")
-//                    }
+                    NavigationLink {
+                        VerifyCredentialsView()
+                    } label: {
+                        Text("Verify Credentials")
+                    }
 //
 //                    NavigationLink {
 //                        LiveThumbnailImageView()
