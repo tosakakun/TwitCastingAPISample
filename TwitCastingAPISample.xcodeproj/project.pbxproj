@@ -28,6 +28,8 @@
 		159ED678284DCFEB008038E9 /* MoviesByUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */; };
 		159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */; };
 		159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED67B284DD171008038E9 /* CurrentLiveView.swift */; };
+		159ED67E284DD908008038E9 /* CurrentLiveSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED67D284DD908008038E9 /* CurrentLiveSubtitleView.swift */; };
+		159ED680284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159ED67F284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesByUserViewModel.swift; sourceTree = "<group>"; };
 		159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveViewModel.swift; sourceTree = "<group>"; };
 		159ED67B284DD171008038E9 /* CurrentLiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveView.swift; sourceTree = "<group>"; };
+		159ED67D284DD908008038E9 /* CurrentLiveSubtitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveSubtitleView.swift; sourceTree = "<group>"; };
+		159ED67F284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLiveSubtitleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 				159ED673284DCE4C008038E9 /* MovieInfoView.swift */,
 				159ED675284DCFD2008038E9 /* MoviesByUserView.swift */,
 				159ED67B284DD171008038E9 /* CurrentLiveView.swift */,
+				159ED67D284DD908008038E9 /* CurrentLiveSubtitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				159ED671284DCE37008038E9 /* MovieInfoViewModel.swift */,
 				159ED677284DCFEB008038E9 /* MoviesByUserViewModel.swift */,
 				159ED679284DD15A008038E9 /* CurrentLiveViewModel.swift */,
+				159ED67F284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 			files = (
 				159ED674284DCE4C008038E9 /* MovieInfoView.swift in Sources */,
 				159ED663284DBCAC008038E9 /* APITestView.swift in Sources */,
+				159ED67E284DD908008038E9 /* CurrentLiveSubtitleView.swift in Sources */,
 				159ED672284DCE37008038E9 /* MovieInfoViewModel.swift in Sources */,
 				159ED66E284DCB1F008038E9 /* LiveThumbnailImageView.swift in Sources */,
 				159ED67A284DD15A008038E9 /* CurrentLiveViewModel.swift in Sources */,
@@ -335,6 +342,7 @@
 				159ED66A284DC8A6008038E9 /* VerifyCredentialsViewModel.swift in Sources */,
 				1527547B284C8AFD00C0B1E1 /* LoginView.swift in Sources */,
 				159ED665284DC47C008038E9 /* GetUserInfoView.swift in Sources */,
+				159ED680284DD921008038E9 /* CurrentLiveSubtitleViewModel.swift in Sources */,
 				159ED67C284DD171008038E9 /* CurrentLiveView.swift in Sources */,
 				1527544E284C895500C0B1E1 /* TwitCastingAPISampleApp.swift in Sources */,
 			);
