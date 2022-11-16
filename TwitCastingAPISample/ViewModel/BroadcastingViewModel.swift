@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class BroadcastingViewModel: ObservableObject {
     
     @Published var rtmpUrlResponse: TCRTMPUrlResponse?
@@ -21,10 +22,8 @@ class BroadcastingViewModel: ObservableObject {
         do {
             
             let response = try await api.getRTMPUrl(token: token)
-            
-            DispatchQueue.main.async {
-                self.rtmpUrlResponse = response
-            }
+
+            self.rtmpUrlResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)
@@ -40,9 +39,7 @@ class BroadcastingViewModel: ObservableObject {
             
             let response = try await api.getWebMUrl(token: token)
             
-            DispatchQueue.main.async {
-                self.webMUrlResponse = response
-            }
+            self.webMUrlResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

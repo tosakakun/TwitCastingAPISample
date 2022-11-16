@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class PostDeleteCommentViewModel: ObservableObject {
     
     @Published var postCommentResponse: TCPostCommentResponse?
@@ -22,10 +23,8 @@ class PostDeleteCommentViewModel: ObservableObject {
             
             let response = try await api.postComment(token: token, movieId: movieId, comment: comment)
             
-            DispatchQueue.main.async {
-                self.postCommentResponse = response
-                self.postedComments.append(response.comment)
-            }
+            self.postCommentResponse = response
+            self.postedComments.append(response.comment)
             
         } catch let error as TCError {
             print(error.localizedDescription)
@@ -50,9 +49,7 @@ class PostDeleteCommentViewModel: ObservableObject {
             
             print("削除されたコメントのID: \(response.commentId)")
             
-            DispatchQueue.main.async {
-                self.postedComments.remove(at: index)
-            }
+            self.postedComments.remove(at: index)
             
         } catch let error as TCError {
             print(error.localizedDescription)

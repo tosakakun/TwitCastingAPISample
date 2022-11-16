@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class GiftsViewModel: ObservableObject {
     
     @Published var giftsResponse: TCGiftsResponse?
@@ -24,9 +25,7 @@ class GiftsViewModel: ObservableObject {
             
             self.sliceId = response.sliceId
             
-            DispatchQueue.main.async {
-                self.giftsResponse = response
-            }
+            self.giftsResponse = response
             
             print(response)
 
