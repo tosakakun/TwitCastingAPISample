@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class GetUserInfoViewModel: ObservableObject {
     
     @Published var userInfo: TCUserInfoResponse?
@@ -20,11 +21,9 @@ class GetUserInfoViewModel: ObservableObject {
             
             let userInfo = try await api.getUserInfo(token: token, userId: id)
             
-            DispatchQueue.main.async {
-                self.userInfo = userInfo
-            }
+            self.userInfo = userInfo
             
-            print(self.userInfo as Any)
+            print(userInfo)
             
         } catch let error as TCError {
             print(error.localizedDescription)

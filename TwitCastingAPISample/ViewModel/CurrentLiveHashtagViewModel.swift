@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class CurrentLiveHashtagViewModel: ObservableObject {
     
     @Published var currentLiveHashtagResponse: TCCurrentLiveHashtagResponse?
@@ -20,9 +21,7 @@ class CurrentLiveHashtagViewModel: ObservableObject {
             
             let response = try await api.setCurrentLiveHashtag(token: token, hashtag: hashtag)
             
-            DispatchQueue.main.async {
-                self.currentLiveHashtagResponse = response
-            }
+            self.currentLiveHashtagResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)
@@ -38,9 +37,7 @@ class CurrentLiveHashtagViewModel: ObservableObject {
             
             let response = try await api.unsetCurrentLiveHashtag(token: token)
             
-            DispatchQueue.main.async {
-                self.currentLiveHashtagResponse = response
-            }
+            self.currentLiveHashtagResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

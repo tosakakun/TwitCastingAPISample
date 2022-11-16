@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import TwitCastingAPI
 
+@MainActor
 class LiveThumbnailViewModel: ObservableObject {
     
     @Published var uiImage: UIImage?
@@ -22,9 +23,7 @@ class LiveThumbnailViewModel: ObservableObject {
             let data = try await api.getLiveThumbnailImage(userId: userId, size: size)
             
             if let uiImage = UIImage(data: data) {
-                DispatchQueue.main.async {
-                    self.uiImage = uiImage
-                }
+                self.uiImage = uiImage
             }
             
         } catch let error as TCError {

@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class CurrentLiveViewModel: ObservableObject {
     
     @Published var currentLiveResponse: TCCurrentLiveResponse?
@@ -25,15 +26,11 @@ class CurrentLiveViewModel: ObservableObject {
             
             let currentLiveResponse = try await api.getCurrentLive(token: token, userId: userId)
             
-            DispatchQueue.main.async {
-                self.currentLiveResponse = currentLiveResponse
-            }
+            self.currentLiveResponse = currentLiveResponse
             
         } catch let error as TCError {
             print(error.localizedDescription)
-            DispatchQueue.main.async {
-                self.error = error
-            }
+            self.error = error
         } catch {
             print(error.localizedDescription)
         }

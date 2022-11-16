@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class MoviesByUserViewModel: ObservableObject {
     
     @Published var moviesByUserResponse: TCMoviesByUserResponse?
@@ -20,9 +21,7 @@ class MoviesByUserViewModel: ObservableObject {
             
             let moviesByUserResponse = try await api.getMoviesByUser(token: token, userId: userId)
             
-            DispatchQueue.main.async {
-                self.moviesByUserResponse = moviesByUserResponse
-            }
+            self.moviesByUserResponse = moviesByUserResponse
             
             print(moviesByUserResponse)
             

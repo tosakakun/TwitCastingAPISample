@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class SupportUnsupportUserViewModel: ObservableObject {
     
     @Published var supportUserResponse: TCSupportUserResponse?
@@ -27,9 +28,7 @@ class SupportUnsupportUserViewModel: ObservableObject {
             
             print(response)
             
-            DispatchQueue.main.async {
-                self.supportUserResponse = response
-            }
+            self.supportUserResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

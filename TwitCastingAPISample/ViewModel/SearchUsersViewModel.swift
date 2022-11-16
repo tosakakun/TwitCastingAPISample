@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class SearchUsersViewModel: ObservableObject {
     
     @Published var usersResponse: TCUsersResponse?
@@ -20,9 +21,7 @@ class SearchUsersViewModel: ObservableObject {
             
             let response = try await api.searchUsers(token: token, words: words)
             
-            DispatchQueue.main.async {
-                self.usersResponse = response
-            }
+            self.usersResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

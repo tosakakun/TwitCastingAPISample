@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class SearchLiveMoviesViewModel: ObservableObject {
     
     @Published var liveMoviesResponse: TCLiveMoviesResponse?
@@ -20,9 +21,7 @@ class SearchLiveMoviesViewModel: ObservableObject {
             
             let response = try await api.searchLiveMovies(token: token, type: type, context: context)
             
-            DispatchQueue.main.async {
-                self.liveMoviesResponse = response
-            }
+            self.liveMoviesResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

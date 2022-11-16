@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class VerifyCredentialsViewModel: ObservableObject {
     
     @Published var response: TCCredentialResponse?
@@ -19,10 +20,8 @@ class VerifyCredentialsViewModel: ObservableObject {
         do {
             
             let response = try await api.verifyCredentials(token: token)
-            
-            DispatchQueue.main.async {
-                self.response = response
-            }
+
+            self.response = response
             
             print(response)
             
