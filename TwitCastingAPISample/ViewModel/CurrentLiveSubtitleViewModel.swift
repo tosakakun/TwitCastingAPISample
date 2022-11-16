@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class CurrentLiveSubtitleViewModel: ObservableObject {
     
     @Published var currentLiveSuttitleResponse: TCCurrentLiveSubtitleResponse?
@@ -20,9 +21,7 @@ class CurrentLiveSubtitleViewModel: ObservableObject {
             
             let response = try await api.setCurrentLiveSubtitle(token: token, subtitle: subtitle)
             
-            DispatchQueue.main.async {
-                self.currentLiveSuttitleResponse = response
-            }
+            self.currentLiveSuttitleResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)
@@ -39,9 +38,7 @@ class CurrentLiveSubtitleViewModel: ObservableObject {
             
             let response = try await api.unsetCurrentLiveSubtitle(token: token)
             
-            DispatchQueue.main.async {
-                self.currentLiveSuttitleResponse = response
-            }
+            self.currentLiveSuttitleResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

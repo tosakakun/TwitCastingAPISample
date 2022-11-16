@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class GetCommentsViewModel: ObservableObject {
     
     @Published var getCommentsResponse: TCGetCommentsResponse?
@@ -26,10 +27,9 @@ class GetCommentsViewModel: ObservableObject {
             
             let response = try await api.getComments(token: token, movieId: movieId, sliceId: lastCommentId)
             
-            DispatchQueue.main.async {
-                self.getCommentsResponse = response
-                self.comments.insert(contentsOf: response.comments, at: 0)
-            }
+            
+            self.getCommentsResponse = response
+            self.comments.insert(contentsOf: response.comments, at: 0)
             
             // 最新のコメントのIDを保存
             if let lastCommentId = response.comments.first?.id {

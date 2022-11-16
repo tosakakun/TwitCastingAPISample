@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class GetCategoriesVeiwModel: ObservableObject {
     
     @Published var categoryResponse: TCCategoryResponse?
@@ -20,9 +21,7 @@ class GetCategoriesVeiwModel: ObservableObject {
             
             let response = try await api.getCategories(token: token, lang: .ja)
             
-            DispatchQueue.main.async {
-                self.categoryResponse = response
-            }
+            self.categoryResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

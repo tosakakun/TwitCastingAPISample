@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class SupportingStatusViewModel: ObservableObject {
     
     @Published var supportingStatusResponse: TCSupportingStatusResponse?
@@ -40,9 +41,7 @@ class SupportingStatusViewModel: ObservableObject {
             
             let response = try await api.getSupportingStatus(token: token, userId: userId, targetUserId: targetUserId)
             
-            DispatchQueue.main.async {
-                self.supportingStatusResponse = response
-            }
+            self.supportingStatusResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)

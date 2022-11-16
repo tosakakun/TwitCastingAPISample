@@ -8,6 +8,7 @@
 import Foundation
 import TwitCastingAPI
 
+@MainActor
 class SupporterListViewModel: ObservableObject {
     
     @Published var supporterListResponse: TCSupporterListResponse?
@@ -20,9 +21,7 @@ class SupporterListViewModel: ObservableObject {
             
             let response = try await api.supporterList(token: token, userId: userId, sort: .ranking)
             
-            DispatchQueue.main.async {
-                self.supporterListResponse = response
-            }
+            self.supporterListResponse = response
             
         } catch let error as TCError {
             print(error.localizedDescription)
